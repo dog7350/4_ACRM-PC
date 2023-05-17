@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Login.unity
+    guid: 8008e9ee740809246a678155ad26ec6d
+  - enabled: 1
+    path: Assets/Scenes/Loading.unity
+    guid: d4d401ba7e68fa14eaa9f9b21fef1e9f
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: 0d8d551a52a70b048b1e6f09c230ca7a
+  - enabled: 1
+    path: Assets/Scenes/Friends.unity
+    guid: a2de30e94710fbc4889ba81809340982
+  - enabled: 1
+    path: Assets/Scenes/Garage.unity
+    guid: 3a05b87bebebfab46913526e834028dd
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: 32608def628e69f449679e768a52f67c
+  - enabled: 1
+    path: Assets/Scenes/RoomCPU.unity
+    guid: 5c1e7f06affa918488ebd6df81993050
+  - enabled: 1
+    path: Assets/Scenes/RoomPVP.unity
+    guid: 31c25f0a01a0b334aba24aaca408119f
+  - enabled: 1
+    path: Assets/Scenes/G_City.unity
+    guid: a0a3d9ba67189444f988e021b4012e1e
+  - enabled: 1
+    path: Assets/Scenes/G_Mountain.unity
+    guid: c0a7de12f6803e4449f06800013aba04
+  - enabled: 1
+    path: Assets/Scenes/G_RaceTrack.unity
+    guid: 24afbfdd17b9ac54f8928297fcfda163
+  - enabled: 1
+    path: Assets/Scenes/Result.unity
+    guid: b0b6aec81dfb899499a040fc86934770
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 1287ab45cbfe7044dace7a05c2049928, type: 2}

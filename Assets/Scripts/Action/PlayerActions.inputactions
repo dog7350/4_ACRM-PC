@@ -1,0 +1,287 @@
+{
+    "name": "PlayerActions",
+    "maps": [
+        {
+            "name": "LoginAction",
+            "id": "64364761-8952-4730-9efe-0ac1f4c223c2",
+            "actions": [
+                {
+                    "name": "EnterAction",
+                    "type": "Button",
+                    "id": "f015c5da-d8f0-414d-9943-b8b7eddf1e2a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TabAction",
+                    "type": "Value",
+                    "id": "83494975-524b-4be4-a13b-6132dad53297",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "beb1066d-eed2-45dd-b639-1cf38bbd3d4b",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TabAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "68132943-d44b-4085-b9c5-59957e0ec431",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EnterAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "ShiftTab",
+                    "id": "5f717d36-26f5-49fe-9a55-f005010cf2fe",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TabAction",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "bc50e9bd-e0ca-41c8-bb24-39edf8ec62f0",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TabAction",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "7d8240e3-2ff6-4011-b1e0-0ee59881b9f0",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TabAction",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "LobbyAction",
+            "id": "5a2a7af6-c993-416d-8c8a-18ca324a40f9",
+            "actions": [
+                {
+                    "name": "ChatEnter",
+                    "type": "Button",
+                    "id": "eed3caa9-d699-42e3-9d7a-c53e1f335c95",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d298ec65-d8b0-4c1e-970e-2330aae06cc7",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChatEnter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ShopAction",
+            "id": "b6de2f55-8d71-496c-9c18-361e603f4bfc",
+            "actions": [
+                {
+                    "name": "ChatEnter",
+                    "type": "Button",
+                    "id": "ed86af1b-4728-45e9-b0e3-0ef3fe39b9ab",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f07b8ce1-9014-4d9b-a517-2c1af0332404",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChatEnter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "RoomPVPAction",
+            "id": "90da6de5-9e8c-4dfd-9453-0a2f424a61dc",
+            "actions": [
+                {
+                    "name": "ChatEnter",
+                    "type": "Button",
+                    "id": "4d0f4da5-a6a2-4c88-8345-6a25aecd8323",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "026880f1-ad6a-493a-9938-3bbd39efee0d",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChatEnter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "GarageAction",
+            "id": "32ebffac-1587-4774-bcc2-d5125c4c2be0",
+            "actions": [
+                {
+                    "name": "ChatEnter",
+                    "type": "Button",
+                    "id": "f5f60b7c-43b4-4c37-bae5-b00e16a87cbb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4974f469-2875-4a51-a2c3-b33f40f34d02",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChatEnter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "FriendsAction",
+            "id": "eb1d1f3e-b1c8-43f6-af98-63a28a7b8aa3",
+            "actions": [
+                {
+                    "name": "ChatEnter",
+                    "type": "Button",
+                    "id": "a307e6df-e2f4-4519-b0fe-7d8903e32798",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1043faa2-8662-42a1-89d0-712f5e599a51",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChatEnter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ResultAction",
+            "id": "15806869-c669-4c81-8565-f7db36f29012",
+            "actions": [
+                {
+                    "name": "ChatEnter",
+                    "type": "Button",
+                    "id": "7d164cbd-31a3-4c8a-b898-93d2dcaff116",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "422e28f6-36dc-4e2f-904a-b6984045ab98",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChatEnter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PC & Mobile",
+            "bindingGroup": "PC & Mobile",
+            "devices": [
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<AndroidJoystick>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<AndroidGamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
